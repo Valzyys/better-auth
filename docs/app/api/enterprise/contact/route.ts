@@ -52,7 +52,7 @@ export async function POST(request: Request) {
 			try {
 				const resend = new Resend(resendApiKey);
 				await resend.emails.send({
-					from: "Enterprise Support <enterprise@better-auth.com>",
+					from: "Support <support@jkt48connect.com>",
 					to: toEmail,
 					subject: `${interest === "enterprise" ? "Enterprise" : "Support"} Inquiry from ${name}`,
 					html: `
