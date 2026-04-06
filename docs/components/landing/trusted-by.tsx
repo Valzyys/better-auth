@@ -46,7 +46,9 @@ function LogoItem({ name, url, logo }: { name: string; url: string; logo: string
         alt={name}
         width={20}
         height={20}
-        className="shrink-0 rounded-sm object-contain opacity-60 dark:opacity-40 hover:opacity-80 transition-opacity"
+        className="shrink-0 rounded-sm object-contain opacity-60 dark:opacity-40 hover:opacity-80 transition-all duration-200
+          [filter:grayscale(1)_brightness(0)]
+          dark:[filter:grayscale(1)_invert(1)]"
         style={{ width: 20, height: 20 }}
       />
       <span className="text-xs font-medium whitespace-nowrap tracking-wide">
