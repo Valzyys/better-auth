@@ -210,7 +210,7 @@ export function StaggeredNavFiles() {
 									<div className="flex items-center gap-1">
 										<Logo className="h-4 w-auto shrink-0" />
 										<p className="select-none font-mono text-lg uppercase leading-none">
-											BETTER-AUTH.
+											JKT48Connect.
 										</p>
 									</div>
 								}
@@ -233,7 +233,7 @@ export function StaggeredNavFiles() {
 					>
 						<Logo className="h-3.5 w-auto shrink-0" />
 						<p className="select-none font-mono text-base uppercase leading-none">
-							BETTER-AUTH.
+							JKT48Connect.
 						</p>
 					</Link>
 					<div className="flex items-center gap-1 pr-2">
@@ -335,7 +335,7 @@ export function StaggeredNavFiles() {
 									<div className="flex items-center gap-1">
 										<Logo className="h-4 w-auto shrink-0" />
 										<p className="select-none font-mono text-lg uppercase leading-none">
-											BETTER-AUTH.
+											JKT48Connect.
 										</p>
 									</div>
 								}
